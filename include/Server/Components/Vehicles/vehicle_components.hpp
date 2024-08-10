@@ -462,7 +462,9 @@ inline int getVehicleComponentSlot(int component)
 		VehicleComponent_FrontBumper, // 1190
 		VehicleComponent_FrontBumper, // 1191
 		VehicleComponent_RearBumper, // 1192
-		VehicleComponent_RearBumper // 1193
+		VehicleComponent_RearBumper, // 1193
+		VehicleComponent_FrontBumper, // 1194
+		VehicleComponent_FrontBumper, // 1195
 	};
 
 	component -= 1000;
