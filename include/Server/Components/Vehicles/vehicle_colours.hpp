@@ -659,7 +659,7 @@ inline void getRandomVehicleColour(int modelid, int& colour1, int& colour2, int&
 	static const uint8_t colour4Squalo[8] = { 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01 };
 
 	// if ((modelid < 15500 || modelid > 15999) || modelid < 400)
-	if (!((modelid >= 400 && modelid <= 611) || (modelid >= 15500 && modelid <= 15999))) {
+	if (!((modelid >= 400 && modelid <= 611) || (modelid >= 15500 && modelid <= 15999)))
 	{
 		colour1 = 127;
 		colour2 = 127;

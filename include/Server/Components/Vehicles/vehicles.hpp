@@ -468,7 +468,7 @@ namespace Impl
 {
 inline bool isValidVehicleModel(int model)
 {
-	if (!((model >= 400 && model <= 611) || (model >= 15500 && model <= 15999))) {
+	if (!((model >= 400 && model <= 611) || (model >= 15500 && model <= 15999)))
 	{
 		return false;
 	}
