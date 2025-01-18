@@ -20,8 +20,6 @@ inline bool isValidComponentForVehicleModel(int vehicleModel, int componentId)
 	// * I don't know yet if this can be used to our advantage to improve the code
 	// * somehow - it seems like that would require more explicit model handling.
 
-	return true;
-
 	if (vehicleModel >= 612) {
 		return true;
 	}
